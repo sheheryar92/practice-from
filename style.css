@@ -1,0 +1,37 @@
+#form_submit {
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ background-color: #0979BD;
+ padding: 5% 15%;
+ margin: auto;
+ margin-top: 5%;
+}
+
+.input_box{
+    background-color: white;
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+
+    background-color: #E9ECEF;
+}
+.icon_input {
+    padding: 2%;
+ 
+}
+.form_input{
+    padding: 2%;
+    margin-bottom: 2px;
+    width: 100%;
+    display: flex;
+    border: none;
+}
+
+.btn {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+

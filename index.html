@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+    <title>Form</title>
+</head>
+<body>
+    
+<form id="form_submit" action="">
+    <div class="input_box">
+        <i class="fas fa-user-circle icon_input" ></i>
+<input  class="form_input " type="text" placeholder="Your Name" id="enter_name">
+    </div>
+    
+<div class="input_box" >
+    <i class="fas fa-phone-alt icon_input"></i>
+    <input class="form_input" type="text" placeholder="Your Number" id="enter_number">
+</div> 
+<div class="input_box"> 
+    <i class="fas fa-envelope icon_input "></i>
+    <input class="form_input" type="password" placeholder="Set Password" id="enter_password">
+
+</div>
+
+<div class="input_box" >
+    <i class="far fa-envelope-open-text icon_input "></i>
+    <textarea class="form_input" name=""  cols="30" rows="10" placeholder="Message" id="getValue"  ></textarea>
+<span style="padding: 2%; margin: auto;"   >Count</span>
+</div>
+
+
+<button class="btn" onclick="submitValue()"  >Submit</button>
+
+</form>
+
+
+<div style="margin: auto; background-color: lightgreen; text-align: center;">
+
+    <h1>Welcome</h1> <span id="user_name"> User </span>
+
+    <h2>Your Number is :</h2> <span id="user_number"></span>
+
+</div>
+
+
+
+</body>
+
+<script src="new.js"></script>
+
+
+
+</html>
