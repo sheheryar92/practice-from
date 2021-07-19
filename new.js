@@ -1,19 +1,21 @@
+// COUNTER
+function myFunction() {
+  const count = document.getElementById("getValue").value.length;
 
-//  function textUp () {
-//  
-
-//     var finalResult = result.value.length;
-//     document.getElementById('text_count').innerHTML = finalResult;
-//  }
-
-
-// var a =  document.getElementById('getValue').value ;
+  document.getElementById("counter").innerHTML = count;
+}
+// COUNTER
 
 
+// INPUT
+function getData(event) {
+  event.preventDefault();
+  var nameValue = document.getElementById("enter_name").value;
 
+  var numberValue = document.getElementById("enter_number").value;
 
+  document.getElementById("user_name").innerHTML = nameValue;
 
-function submitValue() {
-    console.log('im clicked');
-    }
-    
+  document.getElementById("user_number").innerHTML = numberValue;
+}
+// INPUT

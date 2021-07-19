@@ -15,27 +15,28 @@
 <form id="form_submit" action="">
     <div class="input_box">
         <i class="fas fa-user-circle icon_input" ></i>
-<input  class="form_input " type="text" placeholder="Your Name" id="enter_name">
+<input  class="form_input " type="text" placeholder="Your Name" id="enter_name" required>
     </div>
     
 <div class="input_box" >
     <i class="fas fa-phone-alt icon_input"></i>
-    <input class="form_input" type="text" placeholder="Your Number" id="enter_number">
+    <input class="form_input" type="text" placeholder="Your Number" id="enter_number" required>
 </div> 
 <div class="input_box"> 
     <i class="fas fa-envelope icon_input "></i>
-    <input class="form_input" type="password" placeholder="Set Password" id="enter_password">
+    <input class="form_input" type="password" placeholder="Set Password" id="enter_password" required>
 
 </div>
 
 <div class="input_box" >
     <i class="far fa-envelope-open-text icon_input "></i>
     <textarea class="form_input" name=""  cols="30" rows="10" placeholder="Message" id="getValue"  ></textarea>
-<span style="padding: 2%; margin: auto;"   >Count</span>
+<span style="padding: 2%; margin: auto;" onkeyup="myFunction()" id="counter"  >Count</span>
 </div>
 
 
-<button class="btn" onclick="submitValue()"  >Submit</button>
+<button class="btn" onclick="getData()"  >Submit</button>
+
 
 </form>
 
@@ -46,9 +47,7 @@
 
     <h2>Your Number is :</h2> <span id="user_number"></span>
 
-</div>
-
-
+</div> 
 
 </body>
 
